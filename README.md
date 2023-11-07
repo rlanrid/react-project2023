@@ -22,8 +22,8 @@ GSAP(GreenSock Animation Platform)은 JavaScript 기반의 강력한 애니메�
 GSAP은 직관적이고 강력한 API를 제공하며, CSS, SVG, DOM 요소, 캔버스 등을 대상으로 애니메이션을 만들 수 있어 개발자들이 웹사이트와 앱의 사용자 경험을 향상시키는데 사용됩니다.   
 
 ### lenis
-
-
+lenis는 Javascript로 작성된 오픈 소스 웹 프레임워크입니다. 이 프레임워크는 웹 애플리케이션 및 API를 개발하기 위해 사용됩니다. lenis.js는 경량화되고 빠른 속도로 동작하며, 간단한 문법과 구조를 제공하여 개발자가 쉽게 웹 애플리케이션을 구축할 수 있도록 도와줍니다.   
+   
 ## 트러블 슈팅
 <details>
 <summary>Whitespace 에러</summary>
