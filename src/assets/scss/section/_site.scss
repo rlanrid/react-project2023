@@ -1,0 +1,125 @@
+.site__inner {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site__title {
+    width: 48%;
+    height: 5vw;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: var(--mainEng2-font);
+    border-bottom: 0.4vw solid var(--mainFont-color);
+    color: var(--mainFont-color);
+    margin-bottom: 2vw;
+    position: sticky;
+    left: 0;
+    top: 70px;
+}
+
+.site__title em {
+    font-family: var(--mainKor-font);
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: 4px;
+}
+
+.site__wrap {
+    width: 100%;
+}
+
+.site__item {
+    padding: 70px;
+    margin-bottom: 2vw;
+    border-radius: 20px;
+    position: sticky;
+    left: 0;
+}
+
+.site__item.s1 {
+    background-color: var(--white100);
+    top: 180px;
+}
+
+.site__item.s2 {
+    background-color: var(--white200);
+    top: 200px;
+}
+
+.site__item.s3 {
+    background-color: var(--white300);
+    top: 220px;
+}
+
+.site__item.s4 {
+    background-color: var(--white400);
+    top: 240px;
+}
+
+.site__item .num {
+    text-align: left;
+    font-size: 3.25vw;
+    font-family: var(--mainNum-font);
+    color: var(--mainBg-color);
+}
+
+.site__item .text {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5vw;
+    color: var(--mainBg-color);
+}
+
+.site__item h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--subBg500);
+    margin-bottom: 10px;
+}
+
+.site__item .btn {
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--black100);
+    font-family: var(--mainEng2-font);
+}
+
+.site__item .btn a {
+    padding: 5px 15px;
+    margin: 0 5px;
+    background-color: var(--subBg400);
+}
+
+.site__item .info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.site__item .info span {
+    display: block;
+    font-size: 1rem;
+    color: var(--black100);
+    font-family: var(--mainEng2-font);
+}
+
+
+@media (max-width: 800px) {
+    .site__inner {
+        flex-direction: column;
+    }
+
+    .site__title {
+        width: 100%;
+        margin-bottom: 10vw;
+        height: auto;
+        background-color: var(--mainBg-color);
+        font-size: 40px;
+        line-height: 1.4;
+    }
+}

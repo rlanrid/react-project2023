@@ -1,0 +1,126 @@
+#contact {
+    height: 100vh;
+}
+
+.contact__inner {
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__title {
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-family: 'DM Serif Display';
+    color: var(--mainFont-color);
+    line-height: 0.9;
+    white-space: nowrap;
+}
+
+.contact__text {
+    background-color: var(--subBg100);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--mainBg-color);
+    text-align: center;
+    font-family: var(--mainEng2-font);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    padding: 10vw 0;
+    transition: background-color 0.3s;
+}
+
+.contact__text div {
+    font-size: 2vw;
+    transition: opacity 0.3s;
+}
+
+.contact__text div:hover {
+    opacity: 0.5;
+}
+
+.contact__line {
+    width: 100%;
+    display: block;
+}
+
+.contact__line .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--subBg100);
+    margin-bottom: 0.5vw;
+}
+
+.contact__line .line:nth-child(1) {
+    height: 1px;
+}
+
+.contact__line .line:nth-child(2) {
+    height: 2px;
+}
+
+.contact__line .line:nth-child(3) {
+    height: 3px;
+}
+
+.contact__line .line:nth-child(4) {
+    height: 4px;
+}
+
+.contact__line .line:nth-child(5) {
+    height: 5px;
+}
+
+.contact__line .line:nth-child(6) {
+    height: 6px;
+}
+
+.contact__line .line:nth-child(7) {
+    height: 7px;
+}
+
+.contact__line.bottom {
+    margin-top: 0.5vw;
+    display: none;
+}
+
+.contact__line.bottom .line:nth-child(1) {
+    height: 7px;
+}
+
+.contact__line.bottom .line:nth-child(2) {
+    height: 6px;
+}
+
+.contact__line.bottom .line:nth-child(3) {
+    height: 5px;
+}
+
+.contact__line.bottom .line:nth-child(4) {
+    height: 4px;
+}
+
+.contact__line.bottom .line:nth-child(5) {
+    height: 3px;
+}
+
+.contact__line.bottom .line:nth-child(6) {
+    height: 2px;
+}
+
+.contact__line.bottom .line:nth-child(7) {
+    height: 1px;
+}
+
+@media(max-width: 800px) {
+    .contact__line.bottom {
+        display: block;
+    }
+}

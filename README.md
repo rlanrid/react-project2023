@@ -15,6 +15,7 @@ JSX 문법을 통해 UI를 정의하며, 단방향 데이터 흐름을 통해 �
 2. gsap 설치 `npm i gsap`
 3. sass 설치 `npm i sass`
 4. lenis 설치 `npm i @studio-freight/lenis`
+5. react-router-dom 설치 `npm i react-router-dom`
 
 ### GSAP
 GSAP(GreenSock Animation Platform)은 JavaScript 기반의 강력한 애니메이션 라이브러리로, 웹페이지 및 웹 애플리케이션에서 다양한 동적 애니메이션 효과를 쉽게 구현할 수 있게 해주는 도구입니다.    
