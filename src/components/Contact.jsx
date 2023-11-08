@@ -1,4 +1,5 @@
 import React from 'react'
+import { contactText } from '../constants'
 
 const contact = () => {
     return (
@@ -16,12 +17,11 @@ const contact = () => {
                     <span className="line"></span>
                 </div>
                 <div className="contact__text">
-                    <div>
-                        <a href="/">KAKAO : rlanr</a>
-                    </div>
-                    <div>
-                        <a href="/">rlanrider@gmail.com</a>
-                    </div>
+                    {contactText.map((text, key) => (
+                        <div key={key}>
+                            <a href={text.link}>{text.title}</a>
+                        </div>
+                    ))}
                 </div>
                 <div className="contact__line bottom" aria-hidden="true">
                     <span className="line"></span>

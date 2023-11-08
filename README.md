@@ -24,6 +24,12 @@ GSAP은 직관적이고 강력한 API를 제공하며, CSS, SVG, DOM 요소, 캔
 
 ### lenis
 lenis는 Javascript로 작성된 오픈 소스 웹 프레임워크입니다. 이 프레임워크는 웹 애플리케이션 및 API를 개발하기 위해 사용됩니다. lenis.js는 경량화되고 빠른 속도로 동작하며, 간단한 문법과 구조를 제공하여 개발자가 쉽게 웹 애플리케이션을 구축할 수 있도록 도와줍니다.   
+
+### Firebase 호스팅 설정
+1. firebase 사이트 이동 [사이트 바로가기](https://firebase.google.com/?hl=ko)   
+2. 로그인 후 새 프로젝트 만들기   
+3. 호스팅 설정 : Firebase CLI 설치 -> 프로젝트 초기화 -> Firebase 호스팅에 배포   
+4. '.firebaserc', 'firebase.json'파일이 생기고 배포한 사이트 확인 
    
 ## 트러블 슈팅
 <details>
