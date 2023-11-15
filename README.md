@@ -7,8 +7,9 @@ JSX 문법을 통해 UI를 정의하며, 단방향 데이터 흐름을 통해 �
    
 ## 작업 순서
 1. 리액트 설치
-2. git에 업로드
-3. [lenis 사이트](https://github.com/studio-freight/lenis)
+2. 쓸모없는 파일 정리하기(APP.js, index.js제외)
+3. git에 업로드
+4. [lenis 사이트](https://github.com/studio-freight/lenis)
 
 ## 설치
 1. react 설치 `npx create-react-app 프로젝트 이름`
